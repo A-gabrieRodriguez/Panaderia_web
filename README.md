@@ -39,7 +39,7 @@ La base de datos será creada en PostgreSQL. El backend (Spring Boot) manejará 
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/A-gabrieRodriguez/Panaderia_web
 cd tu-repo
 ```
 ### 2. Instalacion del fronted
