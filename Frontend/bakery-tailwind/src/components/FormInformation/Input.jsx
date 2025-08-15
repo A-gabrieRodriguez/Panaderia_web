@@ -1,4 +1,4 @@
-const Input = ({ id, label, placeholder, required, type }) => {
+const Input = ({ id, label, placeholder, required, type, warningMessage }) => {
   return (
     <div className="mb-5">
             <label for={id} className="block mb-2 text-2xl font-extrabold text-gray-900 dark:text-amber-700">{label}</label>
