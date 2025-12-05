@@ -9,7 +9,7 @@ const ImageSlice = ({ image }) => {
         <img src={image} alt="Slide Background pastry"
             className='
             w-full h-250 object-cover
-            mask-b-from-20% mask-b-to-80% 
+            mask-b-from-50% mask-radial-[50%_90%] mask-radial-from-80% 
             brightness-70
             '
         />

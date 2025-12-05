@@ -1,7 +1,7 @@
 const Title = ({ text }) => {
   return (
-    <div className=" pb-15 text-center my-10 flex justify-center">
-      <h1 className="text-white text-6xl font-bold  bg-amber-600 w-200 p-5 shadow-2xl">{text}</h1>
+    <div className="text-center my-5 flex justify-center">
+      <h1 className="text-amber-800 text-6xl font-bold  w-200 p-5">{text}</h1>
     </div>
   );
 }

@@ -1,11 +1,19 @@
 
 import FormForSend from "./FormInformation/FormForSend.jsx";
 
-const MapInformation = () => {
+const WriteUs = () => {
   return (
     <div className="grid grid-cols-2 grid-rows-1 gap-4 mb-20">
       <div className="p-3">
-        <FormForSend />
+        {/* Place title above the form within the same inner container so they share left margin */}
+        <div className="">
+          <div className="max-w-130 mx-auto">
+            <h2 className="text-5xl font-bold text-amber-900">Escríbenos</h2>
+            <br></br>
+            {/*Formulario de contacto*/}
+            <FormForSend />
+          </div>
+        </div>
       </div>
       <div className="p-4 rounded-lg flex flex-col items-center">
         <div className="mb-4 text-center">
@@ -28,4 +36,4 @@ const MapInformation = () => {
   );
 }
 
-export default MapInformation;
+export default WriteUs;

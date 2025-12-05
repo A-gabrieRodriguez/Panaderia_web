@@ -4,13 +4,22 @@ import TextArea from "./TextAre.jsx";
 const FormForSend = () => {
     return (
         <form className="max-w-130 mx-auto">
-          <Input
-            id="name"
-            label="Nombre completo"
-            placeholder="Ingrese su nombre"
-            type="text"
-            required={true}
-          />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Input
+              id="name"
+              label="Nombre completo"
+              placeholder="Ingrese su nombre"
+              type="text"
+              required={true}
+            />
+            <Input
+              id="phone"
+              label="Teléfono"
+              placeholder="(123) 456-7890"
+              type="tel"
+              required={false}
+            />
+          </div>
           <Input
             id="email"
             label="Email"
