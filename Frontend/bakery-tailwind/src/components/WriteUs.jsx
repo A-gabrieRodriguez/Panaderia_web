@@ -8,7 +8,7 @@ const WriteUs = () => {
         {/* Place title above the form within the same inner container so they share left margin */}
         <div className="">
           <div className="max-w-130 mx-auto">
-            <h2 className="text-5xl font-bold text-amber-900">Escríbenos</h2>
+            <h2 className="text-4xl font-bold text-amber-900">Escríbenos</h2>
             <br></br>
             {/*Formulario de contacto*/}
             <FormForSend />
