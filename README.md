@@ -34,6 +34,9 @@ Bienvenido al repositorio oficial del sistema de gestión y visualización para 
 ```
 ## 🗃️ Base de datos
 La base de datos será creada en PostgreSQL. El backend (Spring Boot) manejará las conexiones y operaciones CRUD sobre los datos relacionados con productos, usuarios y pedidos.
+
+![VisualStudio code](DataBase_v1.png "Data base diagram")
+
 ## 🚀 Cómo ejecutar el proyecto
 
 ### 1. Clonar el repositorio

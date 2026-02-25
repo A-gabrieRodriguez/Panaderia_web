@@ -1,4 +1,4 @@
-package org.example.bakery_api.models;
+package org.example.bakery_api.models.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

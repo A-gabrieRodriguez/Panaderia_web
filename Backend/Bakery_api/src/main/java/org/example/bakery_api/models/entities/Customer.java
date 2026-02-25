@@ -1,4 +1,4 @@
-package org.example.bakery_api.models;
+package org.example.bakery_api.models.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -13,21 +13,23 @@ import java.util.UUID;
 @Data
 @Entity
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "product")
-public class Product {
+@NoArgsConstructor
+@Table(name = "customer")
+public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
-    private String nameProduct;
-    private String description;
-    private double price;
-    private int stock;
+    private String name;
+    private String email;
+    private String password;
+    private String phone;
+    private String address;
 
-    //A product can have many sales
-    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    //A customer can have many sales
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     @JsonIgnore
     private List<Sales> sales;
+
 }
