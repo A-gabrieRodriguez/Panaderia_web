@@ -48,9 +48,13 @@ cd tu-repo
 ### 2. Instalacion del fronted
 ```bash
 cd frontend
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
+
+# Diseño
+[![Video about the web page of bakery](Frontend/video_bakery_page.MP4)](Frontend/video_bakery_page.MP4)   
+
 ### 3. Configura y corre el backend
 Asegúrate de tener PostgreSQL instalado y en funcionamiento.
  
