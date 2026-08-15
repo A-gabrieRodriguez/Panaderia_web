@@ -7,11 +7,40 @@ import PieceCake from "./assets/pieces-cake.jpg";
 import Cupcakes from "./assets/cupcakes.jpg";
 import Donuts from "./assets/donuts.jpg";
 import Milkbaskets from "./assets/Desert.jpg";
+import CakeIcon from "./assets/cake-icon.png";
+import PastryIcon from "./assets/pastries.png";
+import SaltyIcon from "./assets/saltyPastries.png";
+
+import CategoryOptions from "./components/CategoryOption.jsx";
 
 const Productos = () => {
   return (
     <>
       <ImageSlice image={Image} />
+
+      {/*Opciones de productos*/}
+      <div className="flex flex-col items-center justify-center ">
+        <div className="flex justify-center w-230 flex flex-col sm:flex-row w-full" >
+          <CategoryOptions
+            category="Pasteles"
+            image={CakeIcon}
+            description="Deliciosos pasteles preparados con ingredientes de calidad."
+          />
+
+          <CategoryOptions
+            category="Pan Dulce"
+            image={PastryIcon}
+            description="Delicioso pan dulce preparado con ingredientes de calidad."
+          />
+
+          <CategoryOptions
+            category="Salados"
+            image={SaltyIcon}
+            description="Deliciosos productos salados preparados con ingredientes de calidad."
+          />
+        </div>
+      </div>
+
       <Title text="Nuestros Productos" />
 
       {/*Aqui van las tarjetas de productos*/}
@@ -30,6 +59,7 @@ const Productos = () => {
          definen la cantidad de columnas según el tamaño de pantalla.
         - gap-x-6, gap-y-10, xl:gap-x-8: define el espacio entre columnas y filas.
       */}
+
       <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-15 lg:max-w-7xl lg:px-8">
         <div className="mt-6
          grid 

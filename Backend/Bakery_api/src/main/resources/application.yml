@@ -2,18 +2,24 @@ spring:
   sql:
     init:
       data:
+
   application:
     name: bakerySystem
+
   mustache:
     suffix: .html
+
   datasource:
     url: jdbc:postgresql://localhost:5050/bakerydb
     username: postgres
     password: lafuente
+
   jpa:
     hibernate:
       ddl-auto: create
+
     properties:
       hibernate:
         globally_quoted_identifiers: true
+
     show-sql: true
