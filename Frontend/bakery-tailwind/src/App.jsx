@@ -20,7 +20,7 @@ const App = () => {
   return (
     <>
       {/* Navbar siempre visible */}
-      <Navbar />
+      <Navbar clickHandler={true}/>
 
       {/* Contenido que cambia */}
       <Routes>

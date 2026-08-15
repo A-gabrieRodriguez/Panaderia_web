@@ -49,11 +49,23 @@ cd tu-repo
 ```bash
 cd frontend
 pnpm install
-pnpm dev
+pnpm dev --host  
 ```
 
 # Diseño
+
+* Video
 https://github.com/user-attachments/assets/265a9f9f-412c-4b46-a508-6a1475457ecf
+
+* Imagenes
+
+| | | | |
+| :---: | :---: | :---: | :---: |
+| ![VisualStudio code](Frontend/bakery-tailwind/src/assets/Inicio1.jpeg "Data base diagram") | ![VisualStudio code](Frontend/bakery-tailwind/src/assets/Inicio2.jpeg "Data base diagram") | ![VisualStudio code](Frontend/bakery-tailwind/src/assets/Inicio3.jpeg "Data base diagram") | ![VisualStudio code](Frontend/bakery-tailwind/src/assets/Inicio4.jpeg "Data base diagram") |
+| ![VisualStudio code](Frontend/bakery-tailwind/src/assets/Productos1.jpeg "Data base diagram") | ![VisualStudio code](Frontend/bakery-tailwind/src/assets/Productos2.jpeg "Data base diagram") | ![VisualStudio code](Frontend/bakery-tailwind/src/assets/AboutUs.jpeg "Data base diagram") | |
+
+
+
 
 ### 3. Configura y corre el backend
 Asegúrate de tener PostgreSQL instalado y en funcionamiento.
