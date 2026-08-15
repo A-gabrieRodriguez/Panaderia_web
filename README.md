@@ -53,7 +53,7 @@ pnpm dev
 ```
 
 # Diseño
-[![Video about the web page of bakery](https://github.com/user-attachments/assets/265a9f9f-412c-4b46-a508-6a1475457ecf)]   
+https://github.com/user-attachments/assets/265a9f9f-412c-4b46-a508-6a1475457ecf
 
 ### 3. Configura y corre el backend
 Asegúrate de tener PostgreSQL instalado y en funcionamiento.
