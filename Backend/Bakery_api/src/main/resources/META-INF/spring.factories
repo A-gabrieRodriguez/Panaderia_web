@@ -1,2 +1,2 @@
 org.springframework.context.ApplicationContextInitializer=\
-org.example.bakery_api.
+org.example.bakery_api.configuration.DotenvInitializer

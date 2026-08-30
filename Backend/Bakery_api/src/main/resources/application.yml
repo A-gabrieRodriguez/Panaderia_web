@@ -1,25 +1,16 @@
 spring:
-  sql:
-    init:
-      data:
-
   application:
-    name: bakerySystem
-
-  mustache:
-    suffix: .html
+    name: ${SPRING_APPLICATION_NAME}
 
   datasource:
-    url: jdbc:postgresql://localhost:5050/bakerydb
-    username: postgres
-    password: lafuente
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
 
   jpa:
+    show-sql: ${SPRING_JPA_SHOW_SQL}
     hibernate:
-      ddl-auto: create
-
+      ddl-auto: ${SPRING_JPA_HIBERNATE_DDL_AUTO}
     properties:
       hibernate:
-        globally_quoted_identifiers: true
-
-    show-sql: true
+        dialect: ${SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT}
