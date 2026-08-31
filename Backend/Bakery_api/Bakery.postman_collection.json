@@ -1,0 +1,40 @@
+{
+  "info": {
+    "_postman_id": "f0392587-ee8b-4059-8055-bd62a76d082f",
+    "name": "Bakery",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "25210500"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"John Doe\",\n  \"Email\": \"john.doe@example.com\",\n  \"phone\": \"2394-7234\",\n  \"address\": \"123 Main St, City, Country\",\n  \"password\": \"password123\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/customers/new-customer",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "customers",
+            "new-customer"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
